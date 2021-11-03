@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
@@ -40,7 +41,7 @@
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-macros": "^3.1.0",
-    "eslint": "^8.1.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "^12.0.2",
     "eslint-config-prettier": "^8.3.0",
